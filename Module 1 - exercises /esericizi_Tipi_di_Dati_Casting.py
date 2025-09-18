@@ -187,3 +187,29 @@ print(f"chi frequenta solo A: {corsoA.difference(corsoB)}")
 print(f"chi frequenta solo B: {corsoB.difference(corsoA)}")
 print(f"chi frequenta almeno un corso: {corsoA.union(corsoB)}")
 print(f"quanti studenti unici ci sono in totale: {len(corsoA.union(corsoB))}")
+
+
+
+
+""" Crea un dizionario che rappresenti
+ uno studente con le seguenti chiavi: "nome", "età" e 
+ "corso". Poi: •Modifica il valore di "età". •Aggiungi una nuova chiave 
+ "matricola". •Usa get() per recuperare un valore sconosciuto senza errore.
+ • Itera su tutte le coppie chiave-valore e stampale """
+
+studente = {
+    "nome": "Anna",
+    "eta": 20,
+    "corso": "Informatica"
+}
+
+studente["eta"] = 19
+studente["matricola"] ="123456"
+var = studente.get("isGraduated", "non specificato")
+print(var)
+
+for key, val in studente.items():
+  print(key, val)
+
+
+
