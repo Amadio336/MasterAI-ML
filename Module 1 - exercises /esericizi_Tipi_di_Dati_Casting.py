@@ -149,3 +149,41 @@ for index, name in enumerate(names):
 
 
 
+""" crea lista di 5 numeri, sostituisci il terzo e stampa """
+
+numeri = [1,2,3,4,5]
+numeri[2] = 17
+print(numeri)
+
+
+
+
+
+""" crea tupla con 3 colori, stampa primo e ultimo. conta il colore che si ripete """
+color_tuple = "rosso", "giallo", "rosso"
+print(f" primo elemento: {color_tuple[0]}, ultimo elemento: {color_tuple[-1]}")
+
+for element in color_tuple:
+  print(color_tuple.count(element))
+
+
+
+
+
+''' Immaginiamo due corsi universitari: Corso A e Corso B. 
+Vogliamo sapere: 
+Chi frequenta entrambi i corsi. 
+Chi frequenta solo il corso A. 
+Chi frequenta solo il corso B. 
+Chi frequenta almeno un corso. 
+Quanti studenti unici ci sono in totale -> domanda mal posta'''
+
+corsoA = {"Alice", "Bob", "Charlie", "David", "Eve"}
+corsoB = {"Bob", "David", "Eve", "Frank", "Grace"}
+
+
+print("chi frequenta entrambi",corsoA.intersection(corsoB))
+print(f"chi frequenta solo A: {corsoA.difference(corsoB)}")
+print(f"chi frequenta solo B: {corsoB.difference(corsoA)}")
+print(f"chi frequenta almeno un corso: {corsoA.union(corsoB)}")
+print(f"quanti studenti unici ci sono in totale: {len(corsoA.union(corsoB))}")
