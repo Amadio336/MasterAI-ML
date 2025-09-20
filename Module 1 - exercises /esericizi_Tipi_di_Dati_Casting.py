@@ -213,3 +213,12 @@ for key, val in studente.items():
 
 
 
+''' Definisci una funzione chiamata media che: • Riceve una lista di numeri (parametro)
+ • Calcola e restituisce la media (somma/numero elementi) 
+ Ad esempio: print(media([2, 4, 6]))  # Stampa 4 Usa len() e sum() per renderla semplice, 
+ leggibile ed efficace. '''
+
+def media(values):
+  return sum(values)/len(values)
+
+print(media([2,4,6]))
