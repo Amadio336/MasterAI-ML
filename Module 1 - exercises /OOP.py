@@ -163,3 +163,37 @@ conto1.preleva(30)
 print(conto1.__dict__)
 
 
+
+''' Crea una classe Animale con attributo nome e metodo verso(). 
+Poi crea due classi derivate: •Cane → verso() stampa “Bauˮ •Gatto → verso() stampa “Miaoˮ 
+Crea un oggetto di ciascuna 
+classe e chiama il metodo verso(). Questo esercizio mostra chiaramente come ereditare e 
+sovrascrivere i metodi. '''
+
+
+class Animale:
+  def __init__(self, nome):
+    self.__nome = nome 
+
+  def getter_nome(self):
+    return self.__nome
+
+
+  def verso(self):
+    print("verso non specificato")
+
+class Cane(Animale):
+  def verso(self):
+    print("Bau")
+
+class Gatto(Animale):
+  def verso(self):
+    print("Miao")
+
+
+cane1 = Cane("Pluto")
+print(cane1.getter_nome())
+
+gatto1 = Gatto("Gino")
+gatto1.verso()
+
