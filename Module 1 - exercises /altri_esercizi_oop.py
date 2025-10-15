@@ -79,7 +79,7 @@ fai_muovere_veicolo(m1, a1) """
 
 
 
-class Studente():
+""" class Studente():
 
     @classmethod
     def cls_from_string(cls, value):
@@ -109,4 +109,47 @@ class Studente():
 s1 = Studente.cls_from_string("Marco-25-Matematica")
 print(s1.calc_age)
 s1.age = 52
-print(s1.calc_age)
+print(s1.calc_age) """
+
+
+
+
+""" 
+esercizio sulle frazioni 
+
+per semplicità, verranno date funzioni in cui il numeratore è sempre > denominatore e numeratore è multiplo del denominatore
+
+"""
+
+
+def simplify(num, den):
+        if num > den and num % den == 0:
+            return (num/den, 1)    
+        else:
+            print("parametri non rispettati")
+            return None
+
+class Fraction():
+    def __init__(self, num, den):
+        value = simplify(num, den)
+        self.num = int(value[0])
+        self.den = value[1]
+        self.frac = int(value[0])
+
+    def __add__(self, v_to_add):
+        return f"{self.frac + v_to_add.frac}/1"
+
+    def __eq__(self, other):
+        if self.frac == other.frac:
+            return True
+        else:
+            return False
+
+    
+    def __str__(self):
+        return f"{self.num}/{self.den}"
+
+fraction1 = Fraction(10,5)
+fraction2 = Fraction(10,5)
+print(fraction1 + fraction2)
+print(fraction1 == fraction2)
