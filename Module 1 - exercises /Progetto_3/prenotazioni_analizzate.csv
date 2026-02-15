@@ -1,0 +1,51 @@
+Cliente,Destinazione,Prezzo,Giorno_Partenza,Durata,Incasso,Categoria
+Anna,Parigi,407.25,8,6,407.25,Europa
+Luca,Tokyo,1256.75,3,12,1256.75,Asia
+Mario,Il Cairo,543.81,7,6,543.81,Africa
+Luca,Roma,306.12,7,14,306.12,Europa
+Sofia,Roma,295.17,19,7,295.17,Europa
+Luigi,Parigi,473.29,23,9,473.29,Europa
+Luigi,New York,907.8,25,8,907.8,America
+Mario,Parigi,413.35,12,8,413.35,Europa
+Mario,Roma,285.87,24,10,285.87,Europa
+Sofia,Roma,277.49,3,11,277.49,Europa
+Luca,New York,1012.59,29,8,1012.59,America
+Mario,Roma,281.54,2,13,281.54,Europa
+Mario,Tokyo,1265.54,28,6,1265.54,Asia
+Sofia,Parigi,439.21,21,8,439.21,Europa
+Luigi,Tokyo,1168.84,22,7,1168.84,Asia
+Luigi,Parigi,459.82,18,14,459.82,Europa
+Sofia,Tokyo,1119.22,9,13,1119.22,Asia
+Anna,Roma,283.18,27,3,283.18,Europa
+Anna,Tokyo,1277.23,13,7,1277.23,Asia
+Luca,Parigi,423.99,29,14,423.99,Europa
+Sofia,New York,895.4,13,13,895.4,America
+Luigi,Il Cairo,557.14,8,14,557.14,Africa
+Luca,Roma,302.34,14,12,302.34,Europa
+Luigi,Il Cairo,583.44,17,10,583.44,Africa
+Mario,Parigi,473.02,5,13,473.02,Europa
+Sofia,Tokyo,1270.1,20,4,1270.1,Asia
+Sofia,Il Cairo,585.79,17,7,585.79,Africa
+Mario,Roma,321.65,22,14,321.65,Europa
+Luca,Parigi,466.35,25,7,466.35,Europa
+Sofia,New York,876.19,6,10,876.19,America
+Anna,Parigi,490.84,17,5,490.84,Europa
+Anna,Roma,324.76,27,13,324.76,Europa
+Luigi,Roma,306.54,12,5,306.54,Europa
+Luca,Roma,327.21,30,3,327.21,Europa
+Mario,Roma,289.45,4,8,289.45,Europa
+Luigi,New York,900.5,29,12,900.5,America
+Sofia,Parigi,412.71,27,4,412.71,Europa
+Luigi,Roma,315.95,22,10,315.95,Europa
+Luca,Roma,279.91,28,12,279.91,Europa
+Luca,Il Cairo,655.72,25,14,655.72,Africa
+Sofia,Tokyo,1251.11,22,13,1251.11,Asia
+Luca,New York,938.24,15,4,938.24,America
+Anna,Tokyo,1133.93,1,12,1133.93,Asia
+Luigi,Roma,283.81,1,4,283.81,Europa
+Mario,Parigi,425.6,28,8,425.6,Europa
+Anna,Parigi,451.27,22,10,451.27,Europa
+Luca,Tokyo,1209.42,19,10,1209.42,Asia
+Sofia,Tokyo,1268.31,7,4,1268.31,Asia
+Anna,Parigi,464.31,14,9,464.31,Europa
+Mario,Il Cairo,643.66,22,13,643.66,Africa
